@@ -20,7 +20,7 @@
 
 
 			<div class="row">
-				<div class="col=md=6 login-left">
+				<div class="col-md-6 login-left">
 					<h2>Login Here</h2>
 					<form action="validation.php" method="post">
 						<div class="form-group">
@@ -33,11 +33,11 @@
 							<input type="password" name="password" class="form-control" required>
 						</div>
 
-						<button type="submit" class="btn btn-primary">Login</button>
+						<button type="submit" class="btn btn-outline-secondary">Login</button>
 					</form>
 				</div>
 
-				<div class="col=md=6 login-right">
+				<div class="col-md-6 login-right">
 					<h2>Register here</h2>
 					<form action="registration.php" method="post">
 						<div class="form-group">

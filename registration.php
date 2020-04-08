@@ -25,4 +25,3 @@ if ($num == 1) {
 	echo "Resistration Successful";
 }
 
-?>
