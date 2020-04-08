@@ -3,9 +3,12 @@
 session_start();
 header('location:login.php');
 
-$con = mysqli_connect('localhost','root','');
+$con = mysqli_connect('localhost','root', 'userregistration');
 
-mysqli_select_db($con, 'userregistration');
+if (mysqli_connect_errno()) {
+	# code...
+	echo "Failed to connect". mysqli_connect_errno();
+}
 
 $name = $_POST['user'];
 $pass = $_POST['password'];
@@ -24,4 +27,3 @@ if ($num == 1) {
 	header('location:login.php');
 }
 
-?>
