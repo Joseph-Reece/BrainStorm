@@ -24,4 +24,3 @@ if ($num == 1) {
 	mysqli_query($con, $reg);
 	echo "Resistration Successful";
 }
-
